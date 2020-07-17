@@ -1,0 +1,213 @@
+
+body {
+  overflow-x: hidden;
+}
+.btn-xl {
+  padding: 20px 40px;
+}
+.content-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.content-section-heading h2 {
+  font-size: 48px;
+}
+.content-section-heading h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+h1,h2,h3 {
+  font-weight: 700;
+}
+.block-heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+/* Side Menu */
+
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  /* transition: all 40s ; */
+  /* transform: translateX(250px); */
+  background:top;
+  /* border-left: 1px solid gray; */
+}
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#sidebar-wrapper .sidebar-nav li.sidebar-nav-item a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}
+#sidebar-wrapper .sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+ 
+#sidebar-wrapper .sidebar-nav>.sidebar-brand {
+  font-size: 20px;
+  height: 80px;
+  line-height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+
+.menu-toggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: rgba(52, 58, 64, 0.5);
+  line-height: 50px;
+  z-index: 999;
+}
+
+#Banner {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(286deg, #46c8d0,#6262e2 35%, #c962f7);
+  color: #fff;
+}
+#Banner .content-wrap {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  left: 50%;
+}
+#Banner .content-wrap h1 {
+  font-size: 80px;
+  margin: 0 0 30px;
+  padding: 0;
+}
+#Banner .content-wrap h3 {
+  font-size: 24px;
+  margin: 0 0 30px;
+  padding: 0;
+}
+#Banner .btn-primary {
+  background-color: linear-gradient(200deg, pink, yellow, green);
+  color: #fff;
+  border: none;
+}
+#Banner .btn-primary:hover {
+	background-color: rgb(49, 214, 165);
+}
+
+
+#facts {
+  background-color: #fafafa;
+}
+#facts .service-box {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+#facts .service-icon {
+  width: 100%;
+  height: 220px;
+  padding: 20px;
+  text-align: center;
+  transition: all .5s ease;
+}
+#facts .service-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* z-index: 1; */
+  opacity: 0;
+  width: 100%;
+  height: 220px;
+  padding: 20px;
+  text-align: center;
+  transition: all .5s ease;
+  background-color: #474747;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform: translateY(110px) rotateX(-90deg);
+}
+#facts .service-box .service-icon .front-content {
+  position: relative;
+  top: 80px;
+  transform: translateY(-50%);
+}
+#facts .service-box .service-icon .front-content i {
+  font-size: 28px;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+#facts .service-box .service-icon .front-content h3 {
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+#facts .service-box .service-content h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#facts .service-box .service-content p {
+  font-size: 13px;
+  color: #fff;
+  margin: 0;
+}
+#facts .service-box .red {
+  background-color: rgb(238, 104, 104);
+}
+#facts .service-box .orange {
+  background-color: orange;
+}
+#facts .service-box .yellow {
+  background-color: rgb(231, 199, 17);
+}
+#facts .service-box .green {
+  background-color: #47c6d0;
+}
+#facts .service-box:hover .service-icon {
+  opacity: 0;
+  /* -webkit-transform: translateY(-110px) rotateX(90deg);
+  -moz-transform: translateY(-110px) rotateX(90deg);
+  -ms-transform: translateY(-110px) rotateX(90deg);
+  -o-transform: translateY(-110px) rotateX(90deg); */
+  transform: translateY(-110px) rotateX(90deg);
+}
+#facts .service-box:hover .service-content {
+  opacity: 1;
+  /* -webkit-transform: rotateX(0);
+  -moz-transform: rotateX(0);
+  -ms-transform: rotateX(0);
+  -o-transform: rotateX(0); */
+  transform: rotateX(0);
+}
+
+
+
+#graphs {
+  padding: 80px 0;
+}
+
+
