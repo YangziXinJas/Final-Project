@@ -187,6 +187,9 @@ h1,h2,h3 {
 #facts .service-box .green {
   background-color: #47c6d0;
 }
+#facts .service-box .green {
+  background-color: rgb(219, 119, 219);
+}
 #facts .service-box:hover .service-icon {
   opacity: 0;
 
