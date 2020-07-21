@@ -47,12 +47,12 @@ h1,h2,h3 {
 #sidebar-wrapper .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: pink;
   padding: 15px;
 }
 #sidebar-wrapper .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
+  color: black;
   background: rgba(255, 255, 255, 0.2);
 }
  
@@ -189,18 +189,12 @@ h1,h2,h3 {
 }
 #facts .service-box:hover .service-icon {
   opacity: 0;
-  /* -webkit-transform: translateY(-110px) rotateX(90deg);
-  -moz-transform: translateY(-110px) rotateX(90deg);
-  -ms-transform: translateY(-110px) rotateX(90deg);
-  -o-transform: translateY(-110px) rotateX(90deg); */
+
   transform: translateY(-110px) rotateX(90deg);
 }
 #facts .service-box:hover .service-content {
   opacity: 1;
-  /* -webkit-transform: rotateX(0);
-  -moz-transform: rotateX(0);
-  -ms-transform: rotateX(0);
-  -o-transform: rotateX(0); */
+
   transform: rotateX(0);
 }
 
